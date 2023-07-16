@@ -1,0 +1,23 @@
+.container_login {
+  background-color: #454545;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_login {
+  background: #717171;
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form_login input,
+button {
+  height: 40px;
+  margin-bottom: 10px;
+}
