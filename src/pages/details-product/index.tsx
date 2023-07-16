@@ -15,7 +15,7 @@ export default function DetailsProduct() {
   const { token } = useAuth();
 
   const [product, setProduct] = useState<Data>({} as Data);
-  const [isLoading, setIsLoading] = useState(true);
+  const [, setIsLoading] = useState(true);
 
   async function getProducts() {
     try {
